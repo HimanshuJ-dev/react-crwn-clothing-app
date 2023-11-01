@@ -17,7 +17,7 @@ const firebaseConfig = {
   projectId: "crwn-clothing-db-58c5d",
   storageBucket: "crwn-clothing-db-58c5d.appspot.com",
   messagingSenderId: "745742143652",
-  appId: "1:745742143652:web:1ea4ef64c1eb1880b61631",
+  appId: "1:745742143652:web:1ea4ef64c1eb1880b61631"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
