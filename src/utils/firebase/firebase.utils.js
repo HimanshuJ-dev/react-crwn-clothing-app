@@ -26,7 +26,7 @@ const firebaseConfig = {
   projectId: "crwn-clothing-db-58c5d",
   storageBucket: "crwn-clothing-db-58c5d.appspot.com",
   messagingSenderId: "745742143652",
-  appId: "1:745742143652:web:1ea4ef64c1eb1880b61631",
+  appId: "1:745742143652:web:1ea4ef64c1eb1880b61631"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
@@ -63,7 +63,7 @@ export const addCollectionAndDocuments = async (
 };
 
 export const getCategoriesAndDocuments = async () => {
-  const collectionRef = collection(db, 'categories');
+  const collectionRef = collection(db, 'collections');
   const q = query(collectionRef);
 
   const querySnapshot = await getDocs(q);
